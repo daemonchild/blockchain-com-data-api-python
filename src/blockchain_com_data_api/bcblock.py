@@ -7,7 +7,7 @@ from datetime import datetime
 from colorama import Fore, Style
 
 # Load local utilities from the module
-from . import bcda
+from . import blockchain_com_data_api
 from . import block_chain_miners as bcm
 
 class Block:
@@ -25,7 +25,7 @@ class Block:
         if (len(hash) == 64 and hash.startswith('0')):
 
             # Fetch the data from the BC API
-            _bc = bcda.BlockchainComDataAPI(verbose=self.verbose)
+            _bc = blockchain_com_data_api.BlockchainComDataAPI(verbose=self.verbose)
             _result = _bc.single_block(hash)
 
             # Check for valid results

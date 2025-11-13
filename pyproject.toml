@@ -1,6 +1,6 @@
 [project]
-name = "blockchainComDataAPI"
-version = "0.0.1"
+name = "blockchain_com_data_api"
+version = "0.1.0"
 authors = [
   { name="daemonchild", email="tom@daemonchild.com" },
 ]
@@ -11,9 +11,16 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license = "GPLv3"
-license-files = ["LICEN[CS]E*"]
+
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/daemonchild/blockchain-com-data-api-python"
 Issues = "https://github.com/daemonchild/blockchain-com-data-api-python/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["blockchain_com_data_api*"]
+
