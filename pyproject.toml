@@ -1,5 +1,5 @@
 [project]
-name = "bcda"
+name = "blockchainComDataAPI"
 version = "0.0.1"
 authors = [
   { name="daemonchild", email="tom@daemonchild.com" },
