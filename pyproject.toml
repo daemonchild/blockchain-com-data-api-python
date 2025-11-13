@@ -1,0 +1,19 @@
+[project]
+name = "bcda"
+version = "0.0.1"
+authors = [
+  { name="daemonchild", email="tom@daemonchild.com" },
+]
+description = "Python Wrapper for the BlockChain.com Data API"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPLv3"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/daemonchild/blockchain-com-data-api-python"
+Issues = "https://github.com/daemonchild/blockchain-com-data-api-python/issues"
