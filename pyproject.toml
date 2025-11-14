@@ -1,5 +1,5 @@
 [project]
-name = "blockchain_com_data_api"
+name = "blockchain-com-data-api"
 version = "0.1.0"
 authors = [
   { name="daemonchild", email="tom@daemonchild.com" },
@@ -7,6 +7,10 @@ authors = [
 description = "Python Wrapper for the BlockChain.com Data API"
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+  "requests",
+  "colorama"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
