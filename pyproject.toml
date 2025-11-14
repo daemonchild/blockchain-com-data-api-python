@@ -1,14 +1,15 @@
 [project]
-name = "blockchain-com-data-api"
-version = "0.1.0"
+name = "bcda"
+version = "0.1.1"
 authors = [
   { name="daemonchild", email="tom@daemonchild.com" },
 ]
 description = "Python Wrapper for the BlockChain.com Data API"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
-  "requests",
+  "requests>=2.32.0",
+  "urllib3>=2.5.0",
   "colorama"
 ]
 classifiers = [
@@ -26,5 +27,5 @@ Issues = "https://github.com/daemonchild/blockchain-com-data-api-python/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["blockchain_com_data_api*"]
+include = ["bcda*"]
 
